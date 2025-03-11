@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --bg-banner: url('/banner.png');
+  }
+  
+  .bg-banner {
+    background-image: var(--bg-banner);
+  }
